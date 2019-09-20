@@ -3,7 +3,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn import svm
 from sklearn.model_selection import GridSearchCV
 
-dataframe=pd.read_csv("D:\College\Projects\spam.csv")
+dataframe=pd.read_csv("spam.csv")
 print(dataframe.head())
 
 x=dataframe["EmailText"]
